@@ -1,0 +1,32 @@
+[
+  {
+    "id": "address-1",
+    "name": "My Address #1",
+    "address": "mn657DJ3f7LX6KfkaVZLdrnQ941YoUPUAET",
+    "primed": 12,
+    "assets": [
+      { "symbol": "BTC", "balance": 0, "color": "asset-blue" },
+      { "symbol": "XCP", "balance": 0, "color": "asset-light-blue" }
+    ]
+  },
+  {
+    "id": "address-2",
+    "name": "My Address #2",
+    "address": "n3NXLHJ2UGmjJuQ8lgMt43CCJjMtiRdAjZH",
+    "primed": 21,
+    "assets": [
+      { "symbol": "BTC", "balance": 0, "color": "asset-blue2" },
+      { "symbol": "XCP", "balance": 0, "color": "asset-light-blue" }
+    ]
+  },
+  {
+    "id": "address-3",
+    "name": "My Address #3",
+    "address": "myj42tWvSuSNsLuygErjtaMjiu5pm49ZKLV",
+    "primed": 11,
+    "assets": [
+      { "symbol": "BTC", "balance": 0, "color": "asset-blue" },
+      { "symbol": "XCP", "balance": 0, "color": "asset-light-blue" }
+    ]
+  }
+]
