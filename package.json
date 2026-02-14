@@ -50,42 +50,9 @@
     "wait-on": "^8.0.1"
   },
   "build": {
-    "appId": "com.counterwallet.desktop",
-    "productName": "Counterwallet Desktop",
-    "directories": {
-      "output": "release",
-      "buildResources": "electron/icons"
-    },
-    "files": [
-      "dist/**/*",
-      "dist-electron/**/*",
-      "package.json"
-    ],
-    "extraResources": [
-      {
-        "from": "electron/icons/icon.png",
-        "to": "icon.png"
-      }
-    ],
+    "appId": "com.your.app",
     "mac": {
-      "target": [
-        "dmg",
-        "zip"
-      ],
-      "artifactName": "${productName}-${version}-${arch}.${ext}",
-      "icon": "electron/icons/icon.png"
-    },
-    "win": {
-      "target": "nsis",
-      "icon": "electron/icons/icon.ico"
-    },
-    "linux": {
-      "target": "AppImage",
-      "icon": "electron/icons/icon.png",
-      "category": "Utility",
-      "desktop": {
-        "Name": "Counterwallet Desktop"
-      }
+      "target": "dmg"
     }
   }
 }
